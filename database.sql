@@ -1,4 +1,4 @@
-CREATE DATABASE jwttutorialdb;
+-- CREATE DATABASE jwttutorialdb;
 
 -- necessary for using uuid
 create extension if not exists "uuid-ossp";

@@ -7,7 +7,7 @@ const InputTodo = ({ setTodosChange }) => {
     e.preventDefault();
 
     try {
-      fetch("http://localhost:1337/dashboard/todos", {
+      fetch("/dashboard/todos", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

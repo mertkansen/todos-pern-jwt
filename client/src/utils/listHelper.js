@@ -1,6 +1,6 @@
 export async function deleteTodo(id, setTodos, todos) {
   try {
-    await fetch(`http://localhost:1337/dashboard/${id}`, {
+    await fetch(`/dashboard/${id}`, {
       method: "DELETE",
       headers: { token: localStorage.token },
     });

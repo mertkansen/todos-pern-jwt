@@ -28,7 +28,7 @@ const Login = ({ setAuth }) => {
     };
 
     try {
-      await fetch("http://localhost:1337/auth/login", {
+      await fetch("/auth/login", {
         method: "POST",
         headers: {
           "Content-type": "application/json",

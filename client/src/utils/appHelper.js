@@ -1,6 +1,6 @@
 export const isAuth = async (setIsAuthenticated) => {
   try {
-    await fetch("http://localhost:1337/auth/is-verify", {
+    await fetch("/auth/is-verify", {
       method: "GET",
       headers: {
         token: localStorage.token,

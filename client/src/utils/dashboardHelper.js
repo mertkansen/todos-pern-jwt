@@ -1,6 +1,6 @@
 export const getName = async (setName, setAllTodos) => {
   try {
-    await fetch("http://localhost:1337/dashboard/", {
+    await fetch("/dashboard/", {
       method: "GET",
       headers: {
         token: localStorage.token,
